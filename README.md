@@ -80,6 +80,10 @@ VAL_ACCS = [0.9190, 0.9118, 0.9201, 0.9239]
  * pandas, numpy, scikit-learn
  * Pillow, tqdm
 
+## Documentation
+- [System Architecture](ARCHITECTURE.md)
+- [Engineering Decisions](DECISIONS.md)
+
 ## Author
 [Muanai K. Revindo]
  * Informatics Engineering Student @ Universitas Sriwijaya
