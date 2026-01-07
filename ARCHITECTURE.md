@@ -103,10 +103,9 @@ This approach improves generalization without introducing excessive label noise.
 
 ### Ensemble Strategy
 - **Weighted Geometric Mean** of probability outputs
-- Implemented via log-space aggregation:
-$$
-\exp\left(\sum_i w_i \cdot \log(p_i)\right)
-$$
+- Implemented via log-space aggregation, where:
+  `p_i` is the predicted probability from model *i*
+  and `w_i` is the normalized ensemble weight
 - Penalizes low-confidence predictions more effectively than arithmetic mean
 
 ### Test-Time Augmentation (4 views)
