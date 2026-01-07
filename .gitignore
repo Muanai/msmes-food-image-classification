@@ -1,0 +1,18 @@
+# Dataset
+data/
+input/
+dataset/
+*.jpg
+*.png
+*.jpeg
+
+# Model Weights
+*.pth
+*.pt
+*.h5
+
+# System & Cache
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
