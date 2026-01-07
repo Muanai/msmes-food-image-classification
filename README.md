@@ -12,7 +12,7 @@ This repository contains the source code for my submission in a *Data Mining Com
 
 This solution was designed to assist *MSMEs (UMKM)* in digitizing their inventory and sales processes through automated image recognition. The final model achieved a *Leaderboard Score of 0.95222*, securing a top 10 position.
 
-> ⚠️ *Dataset Disclaimer:* The dataset used in this competition is proprietary and protected by the competition rules. Therefore, the image data *cannot be shared publicly* in this repository.
+> ⚠️ *Disclaimer:* The dataset used in this competition is proprietary and protected by the competition rules. Therefore, the image data *cannot be shared publicly* in this repository. The notebook is also specifically made to be run on Kaggle Notebook provided by the organizer
 ## Key Architectures & Strategies
 
 We employ a diverse set of backbones to maximize ensemble variance:
